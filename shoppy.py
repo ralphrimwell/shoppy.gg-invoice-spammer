@@ -19,7 +19,7 @@ while True:
         "email": f"{get_random_string(10)}@gmail.com",
         "fields": [],
         "gateway": "BTC",
-        "product": "0sv149x",
+        "product": product,
         "quantity": 1
     }
     data = requests.put('https://shoppy.gg/api/v1/public/order/store', json=data)
